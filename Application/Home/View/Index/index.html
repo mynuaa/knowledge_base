@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" charset='utf-8' charset='utf-8' >
+	<title>知识库</title>
+	
+	<link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{$Think.MODULE_PATH}common/css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
+		<div class="container-fluid">
+			<a href="http://my.nuaa.edu.cn" class="btn btn-default navbar-btn btn-back">返回门户</a>
+		</div>
+	</div>
+	<header class="site-header jumbotron">
+		<div class="site-nav">
+			<a href="#" onclick= >注册</a>
+			<span>|</span>
+			<a href="#" onclick= >登录</a>
+		</div> 
+		<div class="container">
+			<h1>纸飞机技术知识库</h1>
+			<p>The most popular front-end framework for developing responsive.</p>
+			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
+			<form class="search">		
+					<input type="text" class="form-control" placeholder="今天，想了解些什么呢……">
+					<i class="icon icon-search"></i>
+			</form>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="visible-xs">
+				<form  class="choose-content">
+					<label>选择版块:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-warning"><input type="radio">电脑维修</label>
+						<label class="btn btn-warning"><input type="radio">编程开发</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+				<div class="col-md-8 left-style">
+					<ul class="nav nav-tabs nav-tabs-zen pull-left">
+							<li role="presentatio" class="active"><a href="###">最新的</a></li>
+							<li role="presentation"><a href="###">热门的</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<form  class="pull-right  choose-content">
+						<div class="btn-group" data-toggle="buttons">
+							<label class="btn btn-warning"><input type="radio">电脑维修</label>
+							<label class="btn btn-warning"><input type="radio">编程开发</label>
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
+	<section class="content-wrap">
+		<div class="container">
+			<div class="row">
+				<main class="col-md-8 main-content">
+				<volist name="list" id="vo">
+					<article class="post">
+						<div class="header">
+							<h3 class="post-title"><a href="###">{$vo.title}</a></h3>
+						</div>
+						<div class="post-meta">
+							<span class="date"><i class="icon icon-calendar"></i>{$vo.date}</span>
+						    <span class="category"><a href="###"><i class="icon icon-tags"></i>Server & Database</a></span>
+							<span class="comments"><a href="###"><i class="icon icon-comments"></i>{$vo.thumbsup}&nbsp;comments</a></span>
+							<span class="like-count"><i class="icon icon-thumbs-up"></i>{$vo.thumbsup}</span>
+						</div>
+						<p>{$vo.content|msubstr=0,200,'utf-8',true}<a href="###">Read more</a>
+						</p>
+					</article>
+				</volist>		
+					
+				</main>
+				<aside class="col-md-4 sidebar">
+					<div class="widget">
+						<h4 class="title">和我们一起建设知识库吧！</h4>
+						<div class="content">
+							<div class="contribute"><span> > </span><a href="###">快来投稿哦！</a></div>
+							<div class="feedback"><span> > </span><a href="###">反馈建议</a></div>
+						</div>
+					</div>
+					<div class="widget top-5">
+						<h4 class="title">排行榜</h4>
+						<ol>
+							<li><img src="#" alt="img"><span>Sxfzzs</span> <span>+80</span></li>
+							<li><img src="#" alt="img"><span>Rookie</span> <span>+80</span></li>
+							<li><img src="#" alt="img"><span>Readme</span> <span>+80</span></li>
+							<li><img src="#" alt="img"><span>myfzzs</span> <span>+80</span></li>
+							<li><img src="#" alt="img"><span>Shanxi</span> <span>+80</span></li>
+						</ol>
+					</div>
+					<div class="widget">
+        				<h4 class="title">标签</h4>
+			        	<div class="content category">
+			        	    <a href="#">Laravel 5.2</a>
+			 				<a href="#">Spark</a>
+							<a href="#">镜像 </a>
+			        	    <a href="#">新版本发布</a>
+			        	    <a href="#">LTS</a>
+			                <a href="#">微框架</a>
+			                <a href="#">Luman</a>
+			                <a href="#">命名空间</a>
+			                <a href="#">Laravel4</a>
+			                <a href="#">Whoops</a>
+			                <a href="#">Event</a>
+			                <a href="#">升级</a>
+			                <a href="#">Laravle5</a>
+			                <a href="#">错误页</a>
+			                <a href="#">Laravel 5</a>
+			                <a href="#">Artisan</a>
+			                <a href="#">Lavavel 5.1</a>
+			                <a href="#">Lravel</a>
+			                <a href="#">...</a>
+			        	</div>
+		        	</div>
+   				</aside>
+			</div>
+		</div>
+	</section>
+	<script type="text/javasctipt" src="__PUBLIC__/lib/jquery.js"></script>
+	<script type="text/javascripe" src="__PUBLIC__/bootstrap/js/bootstrap.js"></script>
+	<script type="test/javascript" src="Application/Home/common/js/function.js"></script>	                          
+</body>
+</html>
