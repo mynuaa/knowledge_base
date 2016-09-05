@@ -67,6 +67,7 @@
 		<div class="container">
 			<div class="row">
 				<main class="col-md-8 main-content">
+
 				<volist name="list" id="vo">
 					<article class="post">
 						<div class="header">
@@ -74,21 +75,34 @@
 						</div>
 						<div class="post-meta">
 							<span class="date"><i class="icon icon-calendar"></i>{$vo.date}</span>
-						    <span class="category"><a href="###"><i class="icon icon-tags"></i>Server & Database</a></span>
-							<span class="comments"><a href="###"><i class="icon icon-comments"></i>{$vo.thumbsup}&nbsp;comments</a></span>
+						    <span class="category">
+						    	<i class="icon icon-tags"></i>
+						    		<php>
+					    				$j=0;
+					    				foreach($tags[$i-1] as $value){
+					    					echo"<a href=#>";echo($value);echo"</a>";
+					    					$j++;
+					    					if($j< count($tags[$i-1]))
+					    					echo("&nbsp;&nbsp;&&nbsp;&nbsp;");
+					    				}	
+						    		</php>
+						    	
+						    </span>
+							<span class="comments"><a href="###"><i class="icon icon-comments"></i>{$vo.comments_count}&nbsp;comments</a></span>
 							<span class="like-count"><i class="icon icon-thumbs-up"></i>{$vo.thumbsup}</span>
 						</div>
 						<p>{$vo.content|msubstr=0,200,'utf-8',true}<a href="{:U('Home/article/read/')}?ar_id={$vo.ar_id}">Read more</a>
 						</p>
 					</article>
 				</volist>
-
+				
+				<div>{$page}</div>
 				</main>
 				<aside class="col-md-4 sidebar">
 					<div class="widget">
 						<h4 class="title">和我们一起建设知识库吧！</h4>
 						<div class="content">
-							<div class="contribute"><span> > </span><a href="{:U('Home/article/index')}">快来投稿哦！</a></div>
+							<div class="contribute"><span> > </span><a href="{:U('Home/Index/1.html')}">快来投稿哦！</a></div>
 							<div class="feedback"><span> > </span><a href="###">反馈建议</a></div>
 						</div>
 					</div>

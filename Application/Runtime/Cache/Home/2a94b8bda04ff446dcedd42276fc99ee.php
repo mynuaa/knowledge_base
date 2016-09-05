@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" charset='utf-8' charset='utf-8' >
 	<title>知识库</title>
 
-	<link href="/dcode/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-	<link href="/dcode/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/dcode/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo (MODULE_PATH); ?>common/css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -67,26 +67,32 @@
 		<div class="container">
 			<div class="row">
 				<main class="col-md-8 main-content">
+
 				<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><article class="post">
 						<div class="header">
 							<h3 class="post-title"><a href="###"><?php echo ($vo["title"]); ?></a></h3>
 						</div>
 						<div class="post-meta">
 							<span class="date"><i class="icon icon-calendar"></i><?php echo ($vo["date"]); ?></span>
-						    <span class="category"><a href="###"><i class="icon icon-tags"></i>Server & Database</a></span>
-							<span class="comments"><a href="###"><i class="icon icon-comments"></i><?php echo ($vo["thumbsup"]); ?>&nbsp;comments</a></span>
+						    <span class="category">
+						    	<i class="icon icon-tags"></i>
+						    		<?php $j=0; foreach($tags[$i-1] as $value){ echo"<a href=#>";echo($value);echo"</a>"; $j++; if($j< count($tags[$i-1])) echo("&nbsp;&nbsp;&&nbsp;&nbsp;"); } ?>
+						    	
+						    </span>
+							<span class="comments"><a href="###"><i class="icon icon-comments"></i><?php echo ($vo["comments_count"]); ?>&nbsp;comments</a></span>
 							<span class="like-count"><i class="icon icon-thumbs-up"></i><?php echo ($vo["thumbsup"]); ?></span>
 						</div>
 						<p><?php echo (msubstr($vo["content"],0,200,'utf-8',true)); ?><a href="<?php echo U('Home/article/read/');?>?ar_id=<?php echo ($vo["ar_id"]); ?>">Read more</a>
 						</p>
 					</article><?php endforeach; endif; else: echo "" ;endif; ?>
-
+				
+				<div><?php echo ($page); ?></div>
 				</main>
 				<aside class="col-md-4 sidebar">
 					<div class="widget">
 						<h4 class="title">和我们一起建设知识库吧！</h4>
 						<div class="content">
-							<div class="contribute"><span> > </span><a href="<?php echo U('Home/article/index');?>">快来投稿哦！</a></div>
+							<div class="contribute"><span> > </span><a href="<?php echo U('Home/Index/1.html');?>">快来投稿哦！</a></div>
 							<div class="feedback"><span> > </span><a href="###">反馈建议</a></div>
 						</div>
 					</div>
@@ -128,8 +134,8 @@
 			</div>
 		</div>
 	</section>
-	<script type="text/javasctipt" src="/dcode/knowledge_base/Public/lib/jquery.js"></script>
-	<script type="text/javascripe" src="/dcode/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javasctipt" src="/knowledge_base/Public/lib/jquery.js"></script>
+	<script type="text/javascripe" src="/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
 	<script type="test/javascript" src="Application/Home/common/js/function.js"></script>
 </body>
 </html>

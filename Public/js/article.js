@@ -4,7 +4,7 @@ function post_article() {
     var type = $('#ar_type').val();
     $.ajax({
         type: "POST",
-        url: "http://localhost/dcode/knowledge_base/?m=home&c=article&a=post",
+        url: "{$ROOT_PATH}?m=home&c=article&a=post",
         data: {
             content : content,
             title : title,

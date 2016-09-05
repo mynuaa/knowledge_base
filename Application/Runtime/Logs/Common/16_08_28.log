@@ -1,0 +1,6 @@
+[ 2016-08-28T20:03:31+08:00 ] ::1 /knowledge_base/index.php/Index/1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+ERR: 无法加载模块:Index
+
