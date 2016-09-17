@@ -3,6 +3,8 @@ body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 .navbar-back {
 	border: 0;
@@ -26,8 +28,8 @@ a.btn-back:hover,a.btn-back :focus {
 	color:#eee;
 	border-color:#eee;
 	background-color:transparent;
-	-webkit-box-shadow: 0 0 0 1px #eee; 
-    box-shadow: 0 0 0 1px #eee; 
+	-webkit-box-shadow: 0 0 0 1px #eee;
+    box-shadow: 0 0 0 1px #eee;
 }
 .site-nav {
 	position: absolute;
@@ -50,7 +52,7 @@ a.btn-back:hover,a.btn-back :focus {
 .site-nav a {
 	color: #eee;
 }
-.site-header h1 { 
+.site-header h1 {
 	font-size: 39px;
 }
 .search {
@@ -194,4 +196,9 @@ article p {
 	display: inline-block;
 	float:right;
 	text-align: right;
-} 
+}
+.h_center {
+    position: relative;
+    left: 20%;
+    width: 70%;
+}

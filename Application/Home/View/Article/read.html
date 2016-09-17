@@ -8,11 +8,19 @@
         <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     	<link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    	<link href="__MODULE__/Common/css/main.css">
+    	<link href="__PUBLIC__/css/main.css" rel="stylesheet">
         <script src="__PUBLIC__/lib/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/simditor.css" rel="stylesheet" />
+        <script src="__PUBLIC__/lib/jquery.min.js"></script>
+        <script src="__PUBLIC__/js/module.min.js"></script>
+        <script src="__PUBLIC__/js/hotkeys.min.js"></script>
+        <script src="__PUBLIC__/js/uploader.min.js"></script>
+        <script src="__PUBLIC__/js/simditor.min.js"></script>
+        <link href="__PUBLIC__/css/main.css" rel="stylesheet">
+        <link href="__PUBLIC__/css/post_article.css" rel="stylesheet">
         <div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
     		<div class="container-fluid">
-    			<a href="http://my.nuaa.edu.cn" class="btn btn-default navbar-btn btn-back">返回门户</a>
+    			<a href="{:U('Home/Index/Index')}" class="btn btn-default navbar-btn btn-back">返回上一级</a>
     		</div>
     	</div>
         <header class="site-header jumbotron">
@@ -26,14 +34,33 @@
     			<p>The most popular front-end framework for developing responsive.</p>
     			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
     		</div>
+            <p id='text' style="display:none"></p>
     	</header>
         <section class="content-wrap">
     		<div class="container">
                 <article class="post">
-                    <h1>{$info.title}</h1>
-                    <p>{$info.content}</p>
+                    <h1 class="h_center">{$info.title}</h1>
+                    <div id='ar_content'>
+                        <p id='content'></p>
+                    </div>
                 </article>
             </div>
         </section>
     </body>
+    <script>
+        $.ajax({
+            type: "POST",
+            url: "./get_content",
+            data: {
+                ar_id : {$ar_id}
+            },
+            error: function(request) {
+                alert("Connection error");
+            },
+            success: function(data) {
+                var htmls = $('#text').html(data.content).text();
+                $('#content').html(htmls);
+            }
+        });
+    </script>
 </html>

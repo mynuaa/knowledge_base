@@ -17,19 +17,10 @@
 		</div>
 	</div>
 	<header class="site-header jumbotron">
-		<div class="site-nav">
-			<a href="#" onclick= >注册</a>
-			<span>|</span>
-			<a href="#" onclick= >登录</a>
-		</div>
 		<div class="container">
 			<h1>纸飞机技术知识库</h1>
 			<p>The most popular front-end framework for developing responsive.</p>
 			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
-			<form class="search">
-					<input type="text" class="form-control" placeholder="今天，想了解些什么呢……">
-					<i class="icon icon-search"></i>
-			</form>
 		</div>
 	</header>
 	<div class="container">
@@ -99,11 +90,7 @@
 					<div class="widget top-5">
 						<h4 class="title">排行榜</h4>
 						<ol>
-							<li><img src="#" alt="img"><span>Sxfzzs</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Rookie</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Readme</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>myfzzs</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Shanxi</span> <span>+80</span></li>
+
 						</ol>
 					</div>
 					<div class="widget">
