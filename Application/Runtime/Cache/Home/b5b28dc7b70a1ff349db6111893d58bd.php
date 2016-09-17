@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>文章发布</title>
     </head>
     <body>
-        <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    	<link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    	<link href="__MODULE__/Common/css/main.css">
-        <script src="__PUBLIC__/lib/jquery.min.js"></script>
+        <link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    	<link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/zhifeiji/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    	<link href="/zhifeiji/knowledge_base/index.php/Home/Common/css/main.css" rel="stylesheet">
+        <script src="/zhifeiji/knowledge_base/Public/lib/jquery.min.js"></script>
         <div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
     		<div class="container-fluid">
     			<a href="http://my.nuaa.edu.cn" class="btn btn-default navbar-btn btn-back">返回门户</a>
@@ -30,8 +30,8 @@
         <section class="content-wrap">
     		<div class="container">
                 <article class="post">
-                    <h1>{$info.title}</h1>
-                    <p>{$info.content}</p>
+                    <h1><?php echo ($info["title"]); ?></h1>
+                    <p><?php echo ($info["content"]); ?></p>
                 </article>
             </div>
         </section>

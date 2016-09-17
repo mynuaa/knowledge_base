@@ -20,7 +20,6 @@ class ArticleController extends Controller {
             $info['content'] = I('post.content');
             $info['title'] = I('post.title');
             $info['author_name'] = 'wiwry';
-            $info['type'] = I('post.type');
             M('article') -> add($info);
     }
 }

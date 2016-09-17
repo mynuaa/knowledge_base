@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
@@ -7,12 +7,12 @@
 </head>
 
 <body>
-    <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    <link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <script src="__PUBLIC__/lib/jquery.min.js"></script>
-    <link href="__MODULE__/Common/css/main.css">
-    <link href="__MODULE__/Common/css/post_article.css">
+    <link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/zhifeiji/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <script src="/zhifeiji/knowledge_base/Public/lib/jquery.min.js"></script>
+    <link href="/zhifeiji/knowledge_base/index.php/Home/Common/css/main.css">
+    <link href="/zhifeiji/knowledge_base/index.php/Home/Common/css/post_article.css">
     <div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
         <div class="container-fluid">
             <a href="http://my.nuaa.edu.cn" class="btn btn-default navbar-btn btn-back">返回门户</a>
@@ -40,7 +40,7 @@
             </div>
         </div>
     </section>
-    <script src="__PUBLIC__/js/article.js"></script>
+    <script src="/zhifeiji/knowledge_base/Public/js/article.js"></script>
 </body>
 
 </html>
