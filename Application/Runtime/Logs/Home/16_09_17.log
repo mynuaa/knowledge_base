@@ -20884,3 +20884,35 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
 SQL: SHOW COLUMNS FROM `kb_article` [ RunTime:0.0008s ]
 SQL: SELECT * FROM `kb_article` WHERE `ar_id` = 38 LIMIT 1   [ RunTime:0.0003s ]
 
+[ 2016-09-17T20:53:13+08:00 ] ::1 /zhifeiji/knowledge_base/index.php/Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `kb_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `kb_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`author_name`,`date`,`thumbsup`,`comments_count`,`content`,`ar_id`,`tags_id` FROM `kb_article` ORDER BY ar_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `kb_tags` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `kb_tags` WHERE `tags_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+

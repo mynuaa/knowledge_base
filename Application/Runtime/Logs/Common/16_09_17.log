@@ -10512,3 +10512,21 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
 ERR: 无法加载模块:Public
 
+[ 2016-09-17T20:53:14+08:00 ] ::1 /zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-17T20:53:14+08:00 ] ::1 /zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-17T20:53:14+08:00 ] ::1 /zhifeiji/knowledge_base/Public/img/header.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
