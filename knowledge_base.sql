@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `kb_article` (
   `thumbsup` int(10) NOT NULL,
   `ar_id` int(10) NOT NULL,
   PRIMARY KEY (`title`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- 转存表中的数据 `kb_article`
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `kb_tags` (
   `tags_name` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
   `quoted_count` int(8) NOT NULL,
   PRIMARY KEY (`tags_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- 转存表中的数据 `kb_tags`
