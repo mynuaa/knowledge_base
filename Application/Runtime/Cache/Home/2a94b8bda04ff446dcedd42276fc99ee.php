@@ -1,14 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>	<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" charset='utf-8' charset='utf-8' >
 	<title>知识库</title>
 
-	<link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-	<link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/zhifeiji/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-	<link href="/zhifeiji/knowledge_base/Public/css/main.css" rel="stylesheet">
+	<link href="/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/knowledge_base/Public/css/main.css" rel="stylesheet">
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
@@ -17,21 +17,12 @@
 		</div>
 	</div>
 	<header class="site-header jumbotron">
-		<div class="site-nav">
-			<a href="#" onclick= >注册</a>
-			<span>|</span>
-			<a href="#" onclick= >登录</a>
-		</div>
 		<div class="container">
 			<h1>纸飞机技术知识库</h1>
 			<p>The most popular front-end framework for developing responsive.</p>
 			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
-			<form class="search">
-					<input type="text" class="form-control" placeholder="今天，想了解些什么呢……">
-					<i class="icon icon-search"></i>
-			</form>
 		</div>
-	</header>
+	</header>		
 	<div class="container">
 		<div class="row">
 			<div class="visible-xs">
@@ -49,8 +40,8 @@
 		<div class="row">
 				<div class="col-md-8 left-style">
 					<ul class="nav nav-tabs nav-tabs-zen pull-left">
-							<li role="presentatio" class="active"><a href="###">最新的</a></li>
-							<li role="presentation"><a href="###">热门的</a></li>
+							<li role="presentatio"  id="ar_id" name="newest" class="<?php echo ($index); ?>"><a href="<?php echo U('Index/');?>">最新的</a></li>
+							<li role="presentation" id="thumbsup" name="hottest" class="<?php echo ($hottest); ?>"><a href="<?php echo U('Index/hottest/');?>">热门的</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 hidden-xs">
@@ -63,6 +54,7 @@
 				</div>
 		</div>
 	</div>
+
 	<section class="content-wrap">
 		<div class="container">
 			<div class="row">
@@ -82,12 +74,13 @@
 							<span class="comments"><a href="###"><i class="icon icon-comments"></i><?php echo ($vo["comments_count"]); ?>&nbsp;comments</a></span>
 							<span class="like-count"><i class="icon icon-thumbs-up"></i><?php echo ($vo["thumbsup"]); ?></span>
 						</div>
-						<p><?php echo (msubstr($vo["content"],0,200,'utf-8',true)); ?><a href="<?php echo U('Home/article/read/');?>?ar_id=<?php echo ($vo["ar_id"]); ?>">Read more</a>
-						</p>
+							<p><?php echo (msubstr($vo["content"],0,200,'utf-8',true)); ?><a href="<?php echo U('Home/article/read/');?>?ar_id=<?php echo ($vo["ar_id"]); ?>">Read more</a>
+							</p>
 					</article><?php endforeach; endif; else: echo "" ;endif; ?>
 
 				<div><?php echo ($page); ?></div>
 				</main>
+
 				<aside class="col-md-4 sidebar">
 					<div class="widget">
 						<h4 class="title">和我们一起建设知识库吧！</h4>
@@ -99,11 +92,7 @@
 					<div class="widget top-5">
 						<h4 class="title">排行榜</h4>
 						<ol>
-							<li><img src="#" alt="img"><span>Sxfzzs</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Rookie</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Readme</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>myfzzs</span> <span>+80</span></li>
-							<li><img src="#" alt="img"><span>Shanxi</span> <span>+80</span></li>
+
 						</ol>
 					</div>
 					<div class="widget">
@@ -130,12 +119,15 @@
 			                <a href="#">...</a>
 			        	</div>
 		        	</div>
-   				</aside>
+</aside>
+				
 			</div>
 		</div>
 	</section>
-	<script type="text/javasctipt" src="/zhifeiji/knowledge_base/Public/lib/jquery.js"></script>
-	<script type="text/javascripe" src="/zhifeiji/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
-	<script type="test/javascript" src="Application/Home/common/js/function.js"></script>
+	/knowledge_base/index.php/Home/Index
+
+	<script type="text/javascript" src="/knowledge_base/Public/lib/jquery.js"></script>
+	<script type="text/javascript" src="/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/knowledge_base/Public/js/function.js"></script>
 </body>
 </html>
