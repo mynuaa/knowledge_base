@@ -54,7 +54,6 @@
 				</div>
 		</div>
 	</div>
-
 	<section class="content-wrap">
 		<div class="container">
 			<div class="row">
@@ -124,8 +123,6 @@
 			</div>
 		</div>
 	</section>
-	/knowledge_base/index.php/Home/Index
-
 	<script type="text/javascript" src="/knowledge_base/Public/lib/jquery.js"></script>
 	<script type="text/javascript" src="/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/knowledge_base/Public/js/function.js"></script>

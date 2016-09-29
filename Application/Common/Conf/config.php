@@ -8,4 +8,5 @@ return array(
 	'DB_PORT' =>'3306',
 	'DB_PREFIX' => 'kb_',
 
+	'URL_ROUTER_ON'   => true, //开启路由
 );

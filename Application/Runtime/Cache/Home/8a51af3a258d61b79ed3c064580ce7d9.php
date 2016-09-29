@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>文章发布</title>
-    <link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    <link href="/zhifeiji/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/zhifeiji/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/zhifeiji/knowledge_base/Public/css/simditor.css" rel="stylesheet" />
-    <script src="/zhifeiji/knowledge_base/Public/lib/jquery.min.js"></script>
-    <script src="/zhifeiji/knowledge_base/Public/js/module.min.js"></script>
-    <script src="/zhifeiji/knowledge_base/Public/js/hotkeys.min.js"></script>
-    <script src="/zhifeiji/knowledge_base/Public/js/uploader.min.js"></script>
-    <script src="/zhifeiji/knowledge_base/Public/js/simditor.min.js"></script>
-    <link href="/zhifeiji/knowledge_base/Public/css/main.css" rel="stylesheet">
-    <link href="/zhifeiji/knowledge_base/Public/css/post_article.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/knowledge_base/Public/css/simditor.css" rel="stylesheet" />
+    <script src="/knowledge_base/Public/lib/jquery.min.js"></script>
+    <script src="/knowledge_base/Public/js/module.min.js"></script>
+    <script src="/knowledge_base/Public/js/hotkeys.min.js"></script>
+    <script src="/knowledge_base/Public/js/uploader.min.js"></script>
+    <script src="/knowledge_base/Public/js/simditor.min.js"></script>
+    <link href="/knowledge_base/Public/css/main.css" rel="stylesheet">
+    <link href="/knowledge_base/Public/css/post_article.css" rel="stylesheet">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <script src="/zhifeiji/knowledge_base/Public/js/article.js"></script>
+    <script src="/knowledge_base/Public/js/article.js"></script>
 </body>
 
 </html>
