@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>文章发布</title>
+    <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/simditor.css" rel="stylesheet" />
+    <script src="__PUBLIC__/lib/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/module.min.js"></script>
+    <script src="__PUBLIC__/js/hotkeys.min.js"></script>
+    <script src="__PUBLIC__/js/uploader.min.js"></script>
+    <script src="__PUBLIC__/js/simditor.min.js"></script>
+    <link href="__PUBLIC__/css/main.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/post_article.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
+        <div class="container-fluid">
+            <a href="{:U('Home/Index/Index')}" class="btn btn-default navbar-btn btn-back">返回上一级</a>
+        </div>
+    </div>
+    <header class="site-header jumbotron">
+        <div class="container">
+            <h1>纸飞机技术知识库</h1>
+            <p>bug反馈</p>
+        </div>
+    </header>
+
+    <section class="content-wrap">
+        <div id="post_article" class="container">
+            <div>
+                <input type='text' name='fb'  class="a_title" placeholder="标题:XXX有一个bug">
+            </div>
+            <div>
+                <button onclick="post_feedback()" class="f_submit btn btn-primary">反馈</button>
+            </div>
+        </div>
+    </section>
+    <script src="__PUBLIC__/js/feedback.js"></script>
+</body>
+
+</html>
