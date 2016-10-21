@@ -23,35 +23,35 @@
 			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
 		</div>
 	</header>		
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<div class="visible-xs">
 				<form  class="choose-content">
 					<label>选择版块:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<div class="btn-group" data-toggle="buttons">
-						<label class="btn btn-warning"><input type="radio" class="<?php echo ($repair); ?>">电脑维修</label>
-						<label class="btn btn-warning"><input type="radio" class="<?php echo ($coding); ?>">编程开发</label>
+						<label class="btn btn-warning" "><input type="radio" class="<?php echo ($repair); ?>">电脑维修</label>
+						<label class="btn btn-warning" onclick="section()"><input type="radio" class="<?php echo ($coding); ?>">编程开发</label>
 					</div>
 				</form>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="container">
 		<div class="row">
 				<div class="col-md-8 left-style">
 					<ul class="nav nav-tabs nav-tabs-zen pull-left">
-							<li role="presentatio"  id="ar_id" name="newest" class="<?php echo ($index); ?>"><a href="<?php echo U('Index/');?>">最新的</a></li>
-							<li role="presentation" id="thumbsup" name="hottest" class="<?php echo ($hottest); ?>"><a href="<?php echo U('Index/hottest/');?>">热门的</a></li>
+							<li role="presentatio"  id="ar_id" name="newest" class="<?php echo ($index); ?>" ><a href="<?php echo U('/Home//Index/Index');?>">最新的</a></li>
+							<li role="presentation" id="thumbsup" name="hottest" class="<?php echo ($hottest); ?>"><a href="<?php echo U('/Home/Index/hottest');?>">热门的</a></li>
 					</ul>
 				</div>
-				<div class="col-md-4 hidden-xs">
+				<!-- <div class="col-md-4 hidden-xs">
 					<form  class="pull-right  choose-content">
 						<div class="btn-group" data-toggle="buttons">
 							<label class="btn btn-warning"><input type="radio" class="<?php echo ($repair); ?>">电脑维修</label>
 							<label class="btn btn-warning"><input type="radio" calss="<?php echo ($coding); ?>">编程开发</label>
 						</div>
 					</form>
-				</div>
+				</div> -->
 		</div>
 	</div>
 
@@ -83,19 +83,6 @@
 
 				<aside class="col-md-4 sidebar">
 					<div class="widget">
-						<h4 class="title">和我们一起建设知识库吧！</h4>
-						<div class="content">
-							<div class="contribute"><span> > </span><a href="<?php echo U('Home/Article/Index');?>">快来投稿哦！</a></div>
-							<div class="feedback"><span> > </span><a href="###">反馈建议</a></div>
-						</div>
-					</div>
-					<div class="widget top-5">
-						<h4 class="title">排行榜</h4>
-						<ol>
-
-						</ol>
-					</div>
-					<div class="widget">
         				<h4 class="title">标签</h4>
 			        	<div class="content category">
 			        	    <a href="#">Laravel 5.2</a>
@@ -119,6 +106,19 @@
 			                <a href="#">...</a>
 			        	</div>
 		        	</div>
+					<div class="widget">
+						<h4 class="title">和我们一起建设知识库吧！</h4>
+						<div class="content">
+							<div class="contribute"><span> > </span><a href="<?php echo U('Home/Article/Index');?>">快来投稿哦！</a></div>
+							<div class="feedback"><span> > </span><a href="###">反馈建议</a></div>
+						</div>
+					</div>
+					<div class="widget top-5">
+						<h4 class="title">排行榜</h4>
+						<ol>
+
+						</ol>
+					</div>
 </aside>
 				
 			</div>

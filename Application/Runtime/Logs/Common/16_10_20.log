@@ -1,0 +1,826 @@
+[ 2016-10-20T19:51:17+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Public
+
+ic
+
+[ 2016-10-20T19:51:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:20+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:20+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000258s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:22+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:22+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:27+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:27+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001909s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:29+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:31+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:31+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:35+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:51:35+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:17+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:17+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:19+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:19+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:56:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:57:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:57:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:57:28+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004434s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:57:28+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:29+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:29+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:34+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:34+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:36+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:36+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:38+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:58:38+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:39+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:39+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:42+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:42+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:43+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:43+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:45+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:45+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:47+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T19:59:47+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:09+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:09+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:13+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:13+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:16+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:16+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:32+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:00:32+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:31+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:31+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:31+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:36+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:36+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:36+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:37+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:37+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:38+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:38+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:38+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:39+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:39+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:39+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:39+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:40+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+ERR: 无法加载模块:Public
+
+ic
+
+[ 2016-10-20T20:01:40+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:40+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:40+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:41+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:01:42+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:01:42+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:03+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:03+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:06+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:09+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:09+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:27+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:27+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:28+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:02:28+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:03:03+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:03:03+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:03:07+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:03:07+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:08:21+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:08:21+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:08:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:08:25+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:46:51+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:47:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:47:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:47:16+08:00 ] ::1 /knowledge_base/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Index.js
+
+[ 2016-10-20T20:52:06+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:06+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:08+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:08+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:10+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:10+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:11+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:12+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:13+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:13+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:15+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:16+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:16+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:18+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:19+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:19+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010729s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:20+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:20+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:21+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T20:52:21+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:28:17+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:28:17+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:30:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:30:24+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:31:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:31:33+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:34:29+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap-theme.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T22:34:29+08:00 ] ::1 /knowledge_base/Public/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:Public
+
