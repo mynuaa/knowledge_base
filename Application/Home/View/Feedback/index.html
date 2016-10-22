@@ -23,9 +23,12 @@
     <link href="__PUBLIC__/css/post_article.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/wangEditor.min.css">
     <style type="text/css">
-        #editor-trigger {
+          #editor-trigger {
             height: 400px;
             /*max-height: 500px;*/
+        } 
+        #fb_editor-trigger{
+            height: auto !important;
         }
         .container {
             width: 100%;
@@ -49,12 +52,15 @@
     </header>
 
     <section class="content-wrap">
-        <div id="post_feedback">
+        <div id="post_feedback" class="container">
             <div>
                 <input type='text' name='title' id='fb_title' class="a_title" placeholder="bug_反馈标题">
             </div>
+               <div>
+                <input type='text' name='tags' id='fb_tags_id' class="a_tags" placeholder="标签:如php,用英文逗号分割">
+            </div>
             <div id="fb_editor-trigger" class="container">
-
+              
         
             </div>
             <div>
@@ -63,6 +69,7 @@
         </div>
         
     </section>
+
     <script src="__PUBLIC__/js/feedback.js"></script>
 
     <!-- <script type="text/javascript" src="../dist/js/lib/jquery-1.10.2.min.js"></script> -->

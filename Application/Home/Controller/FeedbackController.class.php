@@ -126,8 +126,38 @@ class FeedbackController extends Controller {
 			}
 		}
 	
+		function fb_save(){
+	//		var_dump(I('post.'));
+		//	$p=I('get.title');
+		//	var_dump(I('post.'));
+		//	echo "string".'p';
+		$info['uid'] = 1;
+        $info['content'] = I('post.content');
+        $info['title'] = I('post.title');
+        $tags_value = I('post.tags');
+        $info['date'] = date('Y-m-d h:m:s');
+        $tags_value = explode(',',$tags_value);
+        $tags = M('tags') -> select();
+        $tags_info = array();
+        $i = 0;
+        $tags_id = '';
+        foreach ($tags as $value) {
+            $tags_info[$value['tags_name']] = $value['tags_id'];
+        }
+        foreach ($tags_value as $value) {
+            if($value != '') {
+                $tags_id = $tags_id . (string)$tags_info[$value] . ',';
+            }
+        }
+        $info['tags_id'] = $tags_id;
+        $info['author_name'] = 'wiwry';
+        M('feedback') -> add($info);
+        $this->ajaxReturn($tags_id);
 
 
+		//			$this->ajaxReturn('ppppp');
+
+		}
 
 
 }
