@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" charset='utf-8' charset='utf-8' >
+	<title>知识库</title>
+
+	<link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
+		<div class="container-fluid">
+			<a href="http://my.nuaa.edu.cn" class="btn btn-default navbar-btn btn-back">返回门户</a>
+		</div>
+	</div>
+	<header class="site-header jumbotron">
+		<div class="container">
+			<h1>纸飞机技术知识库</h1>
+			<p>The most popular front-end framework for developing responsive.</p>
+			<p class="head-content">I'm myfzzs. I'm a Rookie!</p>
+		</div>
+	</header>		
+	<div class="container">
+		<div class="row">
+			<div class="visible-xs">
+				<form  class="choose-content">
+					<label>选择版块:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-warning"><input type="radio" class="{$repair}">电脑维修</label>
+						<label class="btn btn-warning"><input type="radio" class="{$coding}">编程开发</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+				<div class="col-md-8 left-style">
+					<ul class="nav nav-tabs nav-tabs-zen pull-left">
+							<li role="presentatio"  id="ar_id" name="newest" class="{$index}"><a href="{:U('Index/')}">最新的</a></li>
+							<li role="presentation" id="thumbsup" name="hottest" class="{$hottest}"><a href="{:U('Index/hottest/')}">热门的</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 hidden-xs">
+					<form  class="pull-right  choose-content">
+						<div class="btn-group" data-toggle="buttons">
+							<label class="btn btn-warning"><input type="radio" class="{$repair}">电脑维修</label>
+							<label class="btn btn-warning"><input type="radio" calss="{$coding}">编程开发</label>
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
