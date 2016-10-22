@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>浏览</title>
     </head>
     <body>
-        <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    	<link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    	<link href="__PUBLIC__/css/main.css" rel="stylesheet">
-        <script src="__PUBLIC__/lib/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/simditor.css" rel="stylesheet" />
-        <script src="__PUBLIC__/lib/jquery.min.js"></script>
-        <script src="__PUBLIC__/js/module.min.js"></script>
-        <script src="__PUBLIC__/js/hotkeys.min.js"></script>
-        <script src="__PUBLIC__/js/uploader.min.js"></script>
-        <script src="__PUBLIC__/js/simditor.min.js"></script>
-        <link href="__PUBLIC__/css/main.css" rel="stylesheet">
-        <link href="__PUBLIC__/css/post_article.css" rel="stylesheet">
+        <link href="/knowledge_base/Public/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    	<link href="/knowledge_base/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/knowledge_base/Public/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    	<link href="/knowledge_base/Public/css/main.css" rel="stylesheet">
+        <script src="/knowledge_base/Public/lib/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/knowledge_base/Public/css/simditor.css" rel="stylesheet" />
+        <script src="/knowledge_base/Public/lib/jquery.min.js"></script>
+        <script src="/knowledge_base/Public/js/module.min.js"></script>
+        <script src="/knowledge_base/Public/js/hotkeys.min.js"></script>
+        <script src="/knowledge_base/Public/js/uploader.min.js"></script>
+        <script src="/knowledge_base/Public/js/simditor.min.js"></script>
+        <link href="/knowledge_base/Public/css/main.css" rel="stylesheet">
+        <link href="/knowledge_base/Public/css/post_article.css" rel="stylesheet">
         <div class="navbar navbar-inverse navbar-fixed-top hidden-print navbar-back ">
     		<div class="container-fluid">
-    			<a href="{:U('Home/Index/Index')}" class="btn btn-default navbar-btn btn-back">返回上一级</a>
+    			<a href="<?php echo U('Home/Index/Index');?>" class="btn btn-default navbar-btn btn-back">返回上一级</a>
     		</div>
     	</div>
         <header class="site-header jumbotron">
@@ -39,7 +39,7 @@
         <section class="content-wrap">
     		<div class="container">
                 <article class="post">
-                    <h1 class="h_center">{$info.title}</h1>
+                    <h1 class="h_center"><?php echo ($info["title"]); ?></h1>
                     <div id='ar_content'>
                         <p id='content'></p>
                     </div>
@@ -52,7 +52,7 @@
             type: "POST",
             url: "./get_content",
             data: {
-                ar_id : {$ar_id}
+                ar_id : <?php echo ($ar_id); ?>
             },
             error: function(request) {
                 alert("Connection error");

@@ -62,7 +62,7 @@
 
 				<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><article class="post">
 						<div class="header">
-							<h3 class="post-title"><a href="###"><?php echo ($vo["title"]); ?></a></h3>
+							<h3 class="post-title"><a href="<?php echo U('Home/article/read/');?>?ar_id=<?php echo ($vo["ar_id"]); ?>"><?php echo ($vo["title"]); ?></a></h3>
 						</div>
 						<div class="post-meta">
 							<span class="date"><i class="icon icon-calendar"></i><?php echo ($vo["date"]); ?></span>
@@ -78,7 +78,7 @@
 							</p>
 					</article><?php endforeach; endif; else: echo "" ;endif; ?>
 
-				<div><?php echo ($page); ?></div>
+				<div class="page"><?php echo ($page); ?></div>
 				</main>
 
 				<aside class="col-md-4 sidebar">
@@ -124,7 +124,6 @@
 			</div>
 		</div>
 	</section>
-	/knowledge_base/index.php/Home/Index
 
 	<script type="text/javascript" src="/knowledge_base/Public/lib/jquery.js"></script>
 	<script type="text/javascript" src="/knowledge_base/Public/bootstrap/js/bootstrap.js"></script>
