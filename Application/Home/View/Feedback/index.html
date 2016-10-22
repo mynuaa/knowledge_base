@@ -7,14 +7,32 @@
     <link href="__PUBLIC__/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     <link href="__PUBLIC__/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="__PUBLIC__/Font-Awesome-3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/dist/css/wangEditor.min.css">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/simditor.css" rel="stylesheet" />
     <script src="__PUBLIC__/lib/jquery.min.js"></script>
     <script src="__PUBLIC__/js/module.min.js"></script>
     <script src="__PUBLIC__/js/hotkeys.min.js"></script>
     <script src="__PUBLIC__/js/uploader.min.js"></script>
     <script src="__PUBLIC__/js/simditor.min.js"></script>
+
+       <link href="__PUBLIC__/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+     
+        <script src="__PUBLIC__/js/fileinput.js" type="text/javascript"></script>
+     
     <link href="__PUBLIC__/css/main.css" rel="stylesheet">
     <link href="__PUBLIC__/css/post_article.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/wangEditor.min.css">
+    <style type="text/css">
+        #editor-trigger {
+            height: 400px;
+            /*max-height: 500px;*/
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,16 +49,141 @@
     </header>
 
     <section class="content-wrap">
-        <div id="post_article" class="container">
+        <div id="post_feedback">
             <div>
-                <input type='text' name='fb'  class="a_title" placeholder="标题:XXX有一个bug">
+                <input type='text' name='title' id='fb_title' class="a_title" placeholder="bug_反馈标题">
+            </div>
+            <div id="fb_editor-trigger" class="container">
+
+        
             </div>
             <div>
-                <button onclick="post_feedback()" class="f_submit btn btn-primary">反馈</button>
+                <button onclick="post_feedback()" class="a_submit btn btn-primary">发送bug反馈</button>
             </div>
         </div>
+        
     </section>
     <script src="__PUBLIC__/js/feedback.js"></script>
-</body>
+
+    <!-- <script type="text/javascript" src="../dist/js/lib/jquery-1.10.2.min.js"></script> -->
+    <script type="text/javascript" src="__PUBLIC__/dist/js/wangEditor.js"></script>
+    <!--<script type="text/javascript" src="../dist/js/wangEditor.min.js"></script>-->
+    <script type="text/javascript">
+        // 阻止输出log
+        // wangEditor.config.printLog = false;
+
+        var fb_editor = new wangEditor('fb_editor-trigger');
+
+        // 上传图片
+        fb_editor.config.uploadImgUrl = "{:U('home/feedback/fb_img')}";
+        fb_editor.config.uploadParams = {
+            // token1: 'abcde',
+            // token2: '12345'
+        };
+        fb_editor.config.uploadHeaders = {
+            // 'Accept' : 'text/x-json'
+        }
+        // fb_editor.config.uploadImgFileName = 'myFileName';
+
+        // 隐藏网络图片
+        // fb_editor.config.hideLinkImg = true;
+
+        // 表情显示项
+        fb_editor.config.emotionsShow = 'value';
+        fb_editor.config.emotions = {
+            'default': {
+                title: '默认',
+                data: '../../../Public/static/emotions.data'
+            },
+            'weibo': {
+                title: '微博表情',
+                data: [
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/7a/shenshou_thumb.gif',
+                        value: '[草泥马]'    
+                    },
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/60/horse2_thumb.gif',
+                        value: '[神马]'    
+                    },
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/bc/fuyun_thumb.gif',
+                        value: '[浮云]'    
+                    },
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/c9/geili_thumb.gif',
+                        value: '[给力]'    
+                    },
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/f2/wg_thumb.gif',
+                        value: '[围观]'    
+                    },
+                    {
+                        icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/70/vw_thumb.gif',
+                        value: '[威武]'
+                    }
+                ]
+            }
+        };
+
+        // 插入代码时的默认语言
+        // fb_editor.config.codeDefaultLang = 'html'
+
+        // 只粘贴纯文本
+        // fb_editor.config.pasteText = true;
+
+        // 跨域上传
+        // fb_editor.config.uploadImgUrl = 'http://localhost:8012/upload';
+
+        // 第三方上传
+        // fb_editor.config.customUpload = true;
+
+        // 普通菜单配置
+        // fb_editor.config.menus = [
+        //     'img',
+        //     'insertcode',
+        //     'eraser',
+        //     'fullscreen'
+        // ];
+        // 只排除某几个菜单（兼容IE低版本，不支持ES5的浏览器），支持ES5的浏览器可直接用 [].map 方法
+        // fb_editor.config.menus = $.map(wangEditor.config.menus, function(item, key) {
+        //     if (item === 'insertcode') {
+        //         return null;
+        //     }
+        //     if (item === 'fullscreen') {
+        //         return null;
+        //     }
+        //     return item;
+        // });
+
+        // onchange 事件
+        fb_editor.onchange = function () {
+            console.log(this.$txt.html());
+        };
+
+        // 取消过滤js
+        // fb_editor.config.jsFilter = false;
+
+        // 取消粘贴过来
+        // fb_editor.config.pasteFilter = false;
+
+        // 设置 z-index
+        // fb_editor.config.zindex = 20000;
+
+        // 语言
+        // fb_editor.config.lang = wangEditor.langs['en'];
+
+        // 自定义菜单UI
+        // fb_editor.UI.menus.bold = {
+        //     normal: '<button style="font-size:20px; margin-top:5px;">B</button>',
+        //     selected: '.selected'
+        // };
+        // fb_editor.UI.menus.italic = {
+        //     normal: '<button style="font-size:20px; margin-top:5px;">I</button>',
+        //     selected: '<button style="font-size:20px; margin-top:5px;"><i>I</i></button>'
+        // };
+        fb_editor.create();
+    </script>
+    </body>
 
 </html>

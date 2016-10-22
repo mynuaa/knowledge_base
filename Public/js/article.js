@@ -19,6 +19,7 @@ function post_article() {
         }
     });
 }
+
 var editor = new Simditor({
   textarea: $('#ar_content')
   //optional options
