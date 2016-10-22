@@ -3,37 +3,16 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
 
-        //“最新”文章输出
-        public function Index(){
-
-          $article = M("article");
-         	$count = $article->count();
-            
-         	$page = new\Think\Page($count,4);
-
-         	$page->setConfig('header','条数据');         //分页
-         	$page->setConfig('prev','上一页');
-         	$page->setConfig('next','下一页');
-         	$page->setConfig('first','首页');
-         	$page->setconfig('last','末页');
-         	$show = $page->show();
-            
-          $result = self::ar_link($article,'ar_id');         //选择文章排序方式
-          $tags_result = self::tags($result);
-          //dump($tags_result);
-          self::style_index();
-          $this->assign('list',$result);
-          $this->assign('tags',$tags_result);
-          $this->assign('page',$show);
-          $this->display();
-        }
-        //最热文章输出
-
-        public function hottest(){
-
-          $article = M("article");
+        private $article;
+        private $show;
+        
+        //构造函数给$article,$show赋值
+        public function __construct(){
+          parent::__construct();    //调用Controller构造函数，重载父类函数，包括assign()
+          $this->article = M("article");
+          $article = $this->article;
           $count = $article->count();
-            
+           
           $page = new\Think\Page($count,4);
 
           $page->setConfig('header','条数据');         //分页
@@ -41,17 +20,35 @@ class IndexController extends Controller {
           $page->setConfig('next','下一页');
           $page->setConfig('first','首页');
           $page->setconfig('last','末页');
-          $show = $page->show();
-          
-          $result = self::ar_link($article,'thumbsup');         //选择文章排序方式
-          $tags_result = self::tags($result);
-          //dump($tags_result);
-          self::style_hottest();      //导航栏跳转后样式
+          $this->show = $page->show();
+        }
+
+        //类内公用输出函数
+        private function display_content($result,$tags_result){
           $this->assign('list',$result);
           $this->assign('tags',$tags_result);
-          $this->assign('page',$show);
+          $this->assign('page',$this->show);
           $this->display();
         }
+
+        //'最新' 文章输出
+        public function Index(){  
+          
+          $result = $this->ar_link('ar_id');         //选择文章排序方式
+          $tags_result = $this->tags($result);
+          $this->style_index();
+          $this->display_content($result,$tags_result);
+        }
+       
+        //'最热' 文章输出
+        public function hottest(){
+          
+          $result = $this->ar_link('thumbsup');     //选择文章排序方式
+          $tags_result = $this->tags($result);
+          $this->style_hottest();      //导航栏跳转后样式
+          $this->display_content($result,$tags_result); 
+        }
+          
         //输出文章标签,一对多数据表
         private function tags($result){
 
@@ -72,22 +69,25 @@ class IndexController extends Controller {
             return $tags_result;
         }
         
-        //文章排序方式
-        private function ar_link($article,$link_basis){
+        //判断文章排序方式,并选中所需要的文章
+        private function ar_link($link_basis){
+            $article = $this->article;
             $result = $article
                       ->field(array('title','author_name','date','thumbsup','comments_count','content','ar_id','tags_id'))
-                      ->order("$link_basis desc")->limit($page->firstRow.','.$page->listRows)->select();//双引号中的内容会被解析 
+                      ->order("$link_basis desc")->limit($page->firstRow.','.$page->listRows)->select();//双引号中的内容才会被解析 
             return $result;
         } 
 
-       private function style_index(){
+        //导航栏样式
+        private function style_index(){
             $this->assign('index','active');
           
-       }
+        }
 
-       private function style_hottest(){
+        private function style_hottest(){
             $this->assign('hottest','active');
-           
-       }
+        }
+ 
+
 }
     
