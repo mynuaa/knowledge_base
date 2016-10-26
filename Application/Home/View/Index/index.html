@@ -14,15 +14,26 @@
 							<span class="date"><i class="icon icon-calendar"></i>{$vo.date}</span>
 						    <span class="category">
 						    	<i class="icon icon-tags"></i>
-						    		<php>
+						    	<!-- 	<php>
 					    				$j=0;
+					    				echo $i;
 					    				foreach($tags[$i-1] as $value){
 					    					echo"<a href=#>";echo($value);echo"</a>";
 					    					$j++;
 					    					if($j< count($tags[$i-1]))
 					    					echo("&nbsp;&nbsp;&&nbsp;&nbsp;");
 					    				}
-						    		</php>
+						    		</php> -->
+								
+						    		<volist name="vo['tag']" id="tag_vo">
+						    			<a href="{:U(home/index/index,array('tag'=>$tag_vo['tags_id']))}">
+						    			{$tag_vo['tags_name']}</a>
+						    			<if condition="$i lt $vo['tag_num']">
+						    				&nbsp;&nbsp;&&nbsp;&nbsp;					 
+						    			</if>
+
+						    		</volist>
+						    		
 
 						    </span>
 							<span class="comments"><a href="###"><i class="icon icon-comments"></i>{$vo.comments_count}&nbsp;comments</a></span>

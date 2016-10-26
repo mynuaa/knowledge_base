@@ -8,7 +8,12 @@ class IndexController extends Controller {
 
           $article = M("article");
          	$count = $article->count();
-            
+          
+          $tag = I('param.tag')?I('param.tag'):'';
+            // if($tag==''){
+            //   var_dump('pp');
+            //   die();
+            // }
          	$page = new\Think\Page($count,4);
 
          	$page->setConfig('header','条数据');         //分页
@@ -17,15 +22,23 @@ class IndexController extends Controller {
          	$page->setConfig('first','首页');
          	$page->setconfig('last','末页');
          	$show = $page->show();
-            
-          $result = self::ar_link($article,'ar_id');         //选择文章排序方式
-          $tags_result = self::tags($result);
+
+          $result = self::ar_link($article,'ar_id',$tag);         //选择文章排序方式
+          $result = self::tags($result);
           //dump($tags_result);
           self::style_index();
+       
           $this->assign('list',$result);
-          $this->assign('tags',$tags_result);
+        //  $this->assign('tags',$tags_result);
           $this->assign('page',$show);
+
+         var_dump($tag,$result[1]);
+
+         // die();
+       // var_dump($tags_result);
+       //   die();
           $this->display();
+
         }
         //最热文章输出
 
@@ -62,21 +75,32 @@ class IndexController extends Controller {
                 $k=0;
                 for($j=0; $j<count($tags_array); $j++){
                     $map['tags_id'] = (int)$tags_array[$j];
-                    $field_result = $tags->where($map)->find();
+                    $field_result = $tags->where($map)->find();                  
                     if($field_result){
-                        $tags_result[$i][$k] = $field_result['tags_name'];
+                        $result[$i]['tag'][] = $field_result;
                         $k++;
                     }
                 }
+                $result[$i]['tag_num'] = count($result[$i]['tag']);
             }
-            return $tags_result;
+            return $result;
         }
         
         //文章排序方式
-        private function ar_link($article,$link_basis){
+        private function ar_link($article,$link_basis,$tag){
+          if($tag!=''){
+            $map['tags_id'] = array('like','%'.$tag.'%');
+             $result = $article->where($map)
+                      ->field(array('title','author_name','date','thumbsup','comments_count','content','ar_id','tags_id'))
+                      ->order("$link_basis desc")->limit($page->firstRow.','.$page->listRows)->select();//双引号中的内容会被解析 
+          }
+          else{
             $result = $article
                       ->field(array('title','author_name','date','thumbsup','comments_count','content','ar_id','tags_id'))
                       ->order("$link_basis desc")->limit($page->firstRow.','.$page->listRows)->select();//双引号中的内容会被解析 
+
+          }
+           
             return $result;
         } 
 
