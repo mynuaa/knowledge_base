@@ -18,15 +18,14 @@ class ArticleController extends Controller {
         $this -> display();
     }
     public function post() {
-
-        $info['uid'] = 1;
+        $info['cate_id'] = 1;
         $info['content'] = I('post.content');
         $info['title'] = I('post.title');
         $tags_value = I('post.tags');
         $tags_value = explode(',',$tags_value);
         $tags = M('tags') -> select();
         $tags_info = array();
-        $i = 0;
+        //$i = 0;
         $tags_id = '';
         foreach ($tags as $value) {
             $tags_info[$value['tags_name']] = $value['tags_id'];
@@ -37,10 +36,12 @@ class ArticleController extends Controller {
             }
         }
         $info['tags_id'] = $tags_id;
-        $info['author_name'] = 'wiwry';
+        $info['author_name'] = 'wiwry';     //测试数据
+        $info['date'] = date ("y-m-d",time());
         M('article') -> add($info);
-        $this->ajaxReturn($tags_id);
+        //$this->ajaxReturn($tags_id);
     }
+
     public function get_tags() {
         $info = M('tags') -> select();
         $this -> ajaxReturn(array_column($info, 'tags_name'));

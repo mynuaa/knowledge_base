@@ -8,7 +8,7 @@
 				<volist name="list" id="vo">
 					<article class="post">
 						<div class="header">
-							<h3 class="post-title"><a href="###">{$vo.title}</a></h3>
+							<h3 class="post-title"><a href="{:U('Home/article/read/')}?ar_id={$vo.ar_id}">{$vo.title}</a></h3>
 						</div>
 						<div class="post-meta">
 							<span class="date"><i class="icon icon-calendar"></i>{$vo.date}</span>
@@ -44,7 +44,7 @@
 					</article>
 				</volist>
 
-				<div>{$page}</div>
+				<div class="page">{$page}</div>
 				</main>
 
 				<include file="Index/side"/>
@@ -52,7 +52,6 @@
 			</div>
 		</div>
 	</section>
-	__URL__
 
 	<script type="text/javascript" src="__PUBLIC__/lib/jquery.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/bootstrap/js/bootstrap.js"></script>

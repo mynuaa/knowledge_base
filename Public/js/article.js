@@ -2,7 +2,6 @@ function post_article() {
     var content = editor.sync();
     var title = $('#ar_title').val();
     var tags = $('#ar_tags_id').val();
-    console.log(content);
     $.ajax({
         type: "POST",
         url: "./post",
@@ -11,11 +10,16 @@ function post_article() {
             title : title,
             tags : tags
         },
-        error: function(request) {
-            alert("Connection error");
-        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+                        alert(XMLHttpRequest.status);
+                        alert(XMLHttpRequest.readyState);
+                        alert(textStatus);
+
+                    },
         success: function(data) {
-            console.log(data);
+            alert("发布成功!");
+            //console.log(data);  服务器返回的数据
+            window.location.href='../Index';
         }
     });
 }
